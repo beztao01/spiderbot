@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>three.js webgl - glTF loader</title>
+		<title>Spider 3d Model</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
@@ -10,8 +10,8 @@
 	<body>
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - GLTFLoader<br />
-			Smart by
-			<a href="https://3dwarehouse.sketchup.com/_" target="_blank" rel="noopener">sketchup</a><br />
+			Spider by
+			<a href="https://adobe.com/mx/products/substance3d-painter.html_" target="_blank" rel="noopener">Substance</a><br />
 			<a href="https://polyhaven.com/a/abandoned_greenhouse" target="_blank" rel="noopener">abandoned greenhouse</a> by <a href="https://polyhaven.com/" target="_blank" rel="noopener">HDRI Haven</a>
 		</div>
 
@@ -100,7 +100,7 @@
 						const roughnessMipmapper = new RoughnessMipmapper( renderer );
 
 						const loader = new GLTFLoader().setPath( 'models/' );
-						loader.load( 'auto.gltf', function ( gltf ) {
+						loader.load( 'spider.gltf', function ( gltf ) {
 
 							gltf.scene.traverse( function ( child ) {
 
